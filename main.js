@@ -28,7 +28,7 @@ var C = (function(characters){
                 if(i !== txt.length-1){
                     var ind = comp.indexOf(txt[i] + txt[i+1]);
                     
-                    if(!ind){
+                    if(ind === -1){
                         throw "Unsupported letter(s): " + txt[i] + txt[i+1];
                     }
                     
