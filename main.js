@@ -43,7 +43,7 @@ var C = (function(characters){
         decompress: function(txt){
             var r = "";
             for(var i = 0; i<txt.length; i++){
-                if(txt[i].match(new RegExp("[" + letters + "]", "ig"))){
+                if(char.indexOf(txt[i]) === -1){
                     r += txt[i];
                     continue;
                 }
