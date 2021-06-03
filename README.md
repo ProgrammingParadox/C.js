@@ -1,5 +1,5 @@
 # C.js
-A small compression library in Vanilla Javascript with a compression rate of ~50%
+A small compression library in Vanilla Javascript with a compression rate of ~50% (In length, not necessarily data)
 
 ## How to use
 To compress something, type:
